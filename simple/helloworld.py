@@ -3,5 +3,5 @@
 #
 import mcpi.minecraft as minecraft
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 mc.postToChat("Hello world!")

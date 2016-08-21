@@ -5,7 +5,7 @@
 #
 import mcpi.minecraft as minecraft
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 pos = mc.player.getPos()
 mc.postToChat("You are at " + str(pos))
 print(mc.getBlock(pos.x, pos.y-1, pos.z))

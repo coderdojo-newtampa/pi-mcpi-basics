@@ -7,7 +7,7 @@ import random
 import time
 import mcpi.vec3 as vec3
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 
 gameover = False
 enemy = vec3.Vec3(5,10,5)

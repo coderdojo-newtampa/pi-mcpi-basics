@@ -8,9 +8,9 @@ import mcpi.minecraft as minecraft
 import mcpi.block as block
 import time as time
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 
-#mc.player.setPos(0,10,0)
+mc.player.setPos(-8,0,0)
 
 mc.postToChat("Orange is X-Axis, Blue is Y-Axis, Purple is Z-Axis (x,y,z)")
 

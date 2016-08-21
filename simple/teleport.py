@@ -6,7 +6,7 @@
 import mcpi.minecraft as minecraft
 import random
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 
 x=random.randrange(-127,127)
 y=random.randrange(0,100)

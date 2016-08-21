@@ -1,16 +1,20 @@
 #
-# Teleports you to a "safe" location in the minecraft world
+# Builds a castle
 #
-# Program randomly places the player in a location that is:
+# Build 2 walls, and 1 tower with:
+#  * Battlements
+#  * Some doors
+#  * Stairs to get around
+#  * Torches on first floor of tower
 #
-#   At the "top" (heightest) point of an (x,z) location (using mc.getHeight())
-#   A location where the bottom block is not AIR or any type of WATER
+# Work in progress!
 #
+
 import mcpi.minecraft as minecraft
 import mcpi.block as block
 import random
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 
 kingdomwidth = 71
 castlewidth  = 31

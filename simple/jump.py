@@ -7,7 +7,7 @@
 import mcpi.minecraft as minecraft
 import time
 
-mc = minecraft.Minecraft.create("192.168.1.5")
+mc = minecraft.Minecraft.create()
 
 pos = mc.player.getPos()
 height = 20
